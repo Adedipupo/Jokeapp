@@ -13,4 +13,8 @@ const jokesData = [
         question: "Did you hear about the mathematician who's afraid of negative numbers?",
         punchLine: "He'll stop at nothing to avoid them!"
     },
-    
+    {
+        id: 4,
+        question: "Hear about the new restaurant called Karma?",
+        punchLine: "There’s no menu: You get what you deserve."
+    },
