@@ -1,5 +1,6 @@
 import React from 'react';
-import Joke from './Joke'
+import Joke from './Joke';
+import JokesData from '../jokesData';
 
 const JokeList = () => {
 return(
