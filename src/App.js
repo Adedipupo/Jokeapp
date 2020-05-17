@@ -8,7 +8,6 @@ function App() {
     <div className="App">
 
       <Header title="Random Jokes"/>
-     
       <JokeList />  
     </div>
   );
