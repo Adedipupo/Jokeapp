@@ -9,7 +9,7 @@ function App() {
     <div className="App">
 
       <Header title="Random Jokes"/>
-      <Joke punchline="i say your father"/>
+     
       <JokeList />  
     </div>
   );

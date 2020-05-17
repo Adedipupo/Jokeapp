@@ -4,6 +4,7 @@ import Joke from './Joke'
 const JokeList = () => {
 return(
   <div>
+        <Joke punchline="i say your" />
         <Joke
             question="You look Ugly"
             punchline="I was trying to look like today"
