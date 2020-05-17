@@ -23,3 +23,9 @@ const jokesData = [
         question: "Did you hear about the actor who fell through the floorboards?",
         punchLine: "He was just going through a stage."
     },
+    {
+        id: 6,
+        question: "Did you hear about the claustrophobic astronaut?",
+        punchLine: "He just needed a little space."
+    }
+]
