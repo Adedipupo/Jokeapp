@@ -6,7 +6,7 @@ import jokesData from './jokesData';
 
 function App() {
       jokesData.map(joke => {
-        return (<Joke />)
+        return (<Joke question={joke.question} punchline={joke.punchLine}/>)
       } )
   return (
     <div className="App">
