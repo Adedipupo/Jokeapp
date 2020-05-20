@@ -3,6 +3,9 @@ import Joke from './Joke';
 import jokesData from '../jokesData';
 
 const JokeList = () => {
+    jokesData.map({
+        
+    })
 return(
   <div>
         <Joke punchline="i say your" />
