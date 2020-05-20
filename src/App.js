@@ -5,11 +5,9 @@ import Joke from './components/Joke';
 import jokesData from './jokesData';
 
 function App() {
-      jokesData.map({
-        return (
-          <Joke />
-        );
-      })
+      jokesData.map(joke => {
+        return (<Joke />)
+      } )
   return (
     <div className="App">
 
