@@ -8,7 +8,7 @@ function App() {
    const jokesComponents =   jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchline={joke.punchLine}/>)
   return (
     <div className="App">
-      <Header title="Random Jokes Ooops"/>
+      <Header title="Random Jokes hahaa"/>
       {jokesComponents}
     </div>
   );
