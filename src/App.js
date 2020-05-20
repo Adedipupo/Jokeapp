@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import JokeList from './components/JokeList';
+import Joke from './components/Joke'
 
 function App() {
   return (
