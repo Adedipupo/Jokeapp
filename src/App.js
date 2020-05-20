@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Joke from './components/Joke'
+import Joke from './components/Joke';
+import jokesData from './jokesData';
 
 function App() {
+      jokesData.map({
+        return (
+          <Joke />
+        );
+      })
   return (
     <div className="App">
 
-      <Header title="Random Jokes"/>
+      <Header title="Random Jokes Ooops"/>
     
         <Joke punchline="i say your" />
         <Joke
